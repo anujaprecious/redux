@@ -65,6 +65,11 @@ button {
  */
  .App {
   text-align: center;
+  
+  
+}
+h1{
+  color: #1842b8;
 }
 
 .App-logo {
@@ -94,9 +99,9 @@ button {
 }
 /*  */
 .btn-wrapper button {
-  background-color: red;
+  background-color: rgb(44, 110, 207);
   border: 0px;
-  padding: 10px;
+  padding: 4px;
   border-radius: 4px;
   margin-top: 3px;
   color: #fff;
@@ -104,14 +109,19 @@ button {
 }
 
 .img-wrapper img {
-  width: 72px;
+  width: 83px;
   margin-top: -10px;;
 }
 .cart-wrapper{
   height: 100px;
+  margin-left: 400px;
     width: 500px;
-    border: 1px solid #ccc;
-    margin-left: 10%;
+    border: 1px solid #274391;
+    border-radius: 20px;
+    box-shadow: 0px 30px 40px rgba(3, 23, 83, 0.2); 
+   
+    
+    
 }
 .item {
   float: left;
@@ -122,6 +132,8 @@ button {
 }
 .add-to-cart img{
   width: 80px;
+  margin-top: 70px;
+  margin-right: 59px;
     position: absolute;
     right: 1%;
     top: 1%;
@@ -130,9 +142,11 @@ button {
 
     position: absolute;
     right: 17px;
+    margin-top: 70px;
+    margin-right: 59px;
     top: 12px;
     z-index: 1;
-    background-color: red;
+    background-color: rgb(66, 93, 179);
     padding: 7px;
     width: 20px;
     height: 20px;
